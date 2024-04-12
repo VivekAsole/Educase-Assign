@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik';
+}
+
+.viewport {
+    background-color: #F7F8F9;
+    width: 375px;
+    height: 812px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.homepage_text_box {
+    position: absolute;
+    top: 549px;
+    margin-left: 20px;
+}
+
+.homepage_text_box h1 {
+    font: bold 28px/17px Rubik;
+    color: #1D2226;
+    margin-bottom: 10px;
+}
+
+
+.homepage_desc {
+    width: 232px;
+    height: 48px;
+    margin-bottom: 29px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1D2226;
+    opacity: 0.6;
+}
+
+button {
+    display: block;
+    margin-bottom: 10px;
+    width: 335px;
+    height: 46px;
+    border-radius: 6px;
+    border: 0;
+    opacity: 1;
+}
+
+input {
+    box-sizing: border-box;
+    padding-left: 16px;
+    font: 16px Rubik;
+}
+
+.button_create_account {
+    background: #6C25FF 0% 0% no-repeat padding-box;
+}
+
+.button_create_account span {
+    width: 120px;
+    height: 19px;
+    text-align: center;
+    font: normal normal bold 16px/17px Rubik;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.button_login {
+    background: #6C25FF4B 0% 0% no-repeat padding-box;
+}
+
+.button_login span {
+    width: 202px;
+    height: 19px;
+    text-align: center;
+    font: normal normal bold 16px/17px Rubik;
+    color: #1D2226;
+}
+
+.login-box {
+    position: absolute;
+    top: 40px;
+    margin-left: 20px;
+}
+
+.login-box h1 {
+    width: 188px;
+    height: 69px;
+    font: normal normal bold 28px/36px Rubik;
+    color: #1D2226;
+}
+
+.login-box p {
+    width: 232px;
+    height: 48px;
+    text-align: left;
+    font: normal normal normal 18px/26px Rubik;
+    letter-spacing: 0px;
+    color: #1D2226;
+    opacity: 0.6;
+}
+
+.input-wrapper input {
+    display: block;
+    width: 335px;
+    height: 40px;
+    border: 1px solid #CBCBCB;
+    background-color: #F7F8F9;
+    border-radius: 6px;
+}
+
+.login-box input {
+    margin-bottom: 23px;
+}
+
+.button-login-sub span {
+    width: 42px;
+    height: 19px;
+    margin-top: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    font: normal normal bold 16px/17px Rubik;
+    opacity: 1;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.login-box .input-wrapper:first-child {
+    margin-top: 33px;
+    margin-bottom: 23px;
+}
+
+.input-wrapper label {
+    position: absolute;
+    left: 14px;
+    width: 103px;
+    height: 17px;
+    font: normal normal normal 13px/17px Rubik;
+    color: #6C25FF;
+    background: #F7F8F9 0% 0% no-repeat padding-box;
+    transform: translatey(-50%);
+    padding: 5px;
+}
+
+input::placeholder {
+    font: normal normal normal 14px/17px Rubik;
+    color: #919191;
+}
+
+.signup-box {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.signup-box h1 {
+    width: 188px;
+    height: 69px;
+    font: bold 28px/36px Rubik;
+    margin-bottom: 31px;
+}
+
+.signup-box .input-wrapper {
+    margin-bottom: 29px;
+}
+
+.signup-box .input-wrapper label::after {
+    color: #DD4A3D;
+    content: '*';
+}
+
+#company-name {
+    margin-bottom: 18px;
+}
+
+#company-name label::after {
+    content: '';
+}
+
+.radio-box {
+    width: 132px;
+    height: 47px;
+}
+
+.radio-box p {
+    margin-bottom: 10px;
+    width: 125px;
+    height: 15px;
+    font: normal normal normal 13px/17px Rubik;
+}
+
+.radio-box p::after {
+    color: #DD4A3D;
+    content: '*';
+}
+
+.radio-box div {
+    display: flex;
+    align-items: center;
+}
+
+.radio {
+    margin-right: 12px;
+    width: 22px;
+    height: 22px;
+    accent-color: #6C25FF;
+}
+
+#radio2 {
+    margin-left: 23px;
+}
+
+.radio-box label {
+    font: normal normal normal 14px/17px Rubik;
+}
+
+.signup-box form button {
+    position: absolute;
+    bottom: 30px;
+}
+
+.button-bg-change {
+    background: #6C25FF;
+}
+
+.top-box {
+    width: 375px;
+    height: 68px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000007;
+
+}
+
+.top-box p {
+    width: 146px;
+    height: 22px;
+    padding-top: 27px;
+    margin-left: 15px;
+    font: normal normal normal 18px/21px Rubik;
+    color: #1D2226;
+}
+
+.profile-box {
+    position: relative;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.profile-box svg {
+    position: absolute;
+    top: 79px;
+    left: 79px;
+    width: 21px;
+    height: 23px;
+}
+
+.profile-image {
+    width: 76px;
+    height: 76px;
+    background: transparent url('/Ellipse 114.png') 0% 0% no-repeat padding-box;
+    margin-right: 20px;
+}
+
+.profile-info p:first-child {
+    width: 73px;
+    height: 18px;
+    font: normal normal bold 15px/19px Rubik;
+    color: #1D2226;
+}
+
+.profile-info p:last-child {
+    margin-top: 6px;
+    width: 118px;
+    height: 17px;
+    font: normal normal normal 14px/19px Rubik;
+    color: #1D2226;
+}
+
+.profile-desc {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 337px;
+    height: 63px;
+    text-align: left;
+    font: normal normal normal 14px/22px Rubik;
+    letter-spacing: 0px;
+    color: #1D2226;
+}
+
+.dash-line {
+    margin-top: 20px;
+    width: 375px;
+    height: 0px;
+    border: 1px dashed #CBCBCB;
+}
+
+.bottom-dash-line {
+    position: absolute;
+    bottom: 36px;
+    width: 375px;
+    height: 0px;
+    border: 1px dashed #CBCBCB;
+
+}
